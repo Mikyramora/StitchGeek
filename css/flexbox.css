@@ -1,0 +1,45 @@
+.misProductos{
+    background-color: blueviolet;
+    justify-content: center;
+    margin: 0;
+    width: 758px;
+    height: 1115px;
+    padding: 30px;
+    display: flex;
+    
+}
+
+.subtituloElemento{
+    font-size: 2.5em;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    padding: 0 0 40px 0;
+}
+
+.card_container{
+    background-color: aqua;
+    width: 678px;
+    height: 971px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    box-shadow: -12px 10px 5.8px 0 #464343;
+    overflow: auto;
+}
+
+.card__item{
+    background-color: chartreuse;
+    width: 196px;
+    height: 258px;
+    border-radius: 10px;
+    border: 3px #000;
+    padding: 10px;
+    gap: 10px;
+    box-shadow: -5px 6px 3.3px 0  #464343;
+}
+
+.card_img{
+    height: 176px;
+    width: 176px;
+}
