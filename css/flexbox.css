@@ -1,45 +1,59 @@
 .misProductos{
-    background-color: blueviolet;
     justify-content: center;
     margin: 0;
     width: 758px;
     height: 1115px;
     padding: 30px;
-    display: flex;
-    
 }
 
 .subtituloElemento{
-    font-size: 2.5em;
+    font-size: 3em;
     font-weight: 900;
     display: flex;
     justify-content: center;
-    padding: 0 0 40px 0;
+    padding: 0 0 30px 0;
 }
 
 .card_container{
-    background-color: aqua;
-    width: 678px;
+    margin-left: 40px;
+    width: 710px;
     height: 971px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    box-shadow: -12px 10px 5.8px 0 #464343;
+    box-shadow: -12px 10px 5.8px 0 #5e5a5a;
     overflow: auto;
+    
 }
 
 .card__item{
-    background-color: chartreuse;
+    background-color: #737CE6;
     width: 196px;
     height: 258px;
     border-radius: 10px;
-    border: 3px #000;
-    padding: 10px;
+    padding: 10px 0;
+    margin-bottom: 50px;
     gap: 10px;
-    box-shadow: -5px 6px 3.3px 0  #464343;
+    box-shadow: -5px 6px 3.3px 0  #5e5a5a;
 }
 
 .card_img{
     height: 176px;
     width: 176px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.card__item h3{
+    padding: 10px 10px;
+}
+
+.card__item p{
+    font-weight: 700;
+    font-size: 18px;
+    padding: 0 10px;
+}
+
+.descripcion-card img{
+    margin-left: 160px;
 }

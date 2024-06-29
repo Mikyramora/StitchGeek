@@ -1,0 +1,50 @@
+.container__formulario{
+    text-align: center;
+    margin: 0 50px 555px 0;
+    width:  472px;
+    height: 550px;
+    padding: 40px;
+    gap: 40px;
+}
+
+.container_input{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.campo__escrita{
+    width: 392px;
+    height: 58px;
+    margin: 0 0 10px 37px;
+    border-radius: 30px;
+    border: #5b68f4 4px solid;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.formulario__enviar{
+    width: 188px;
+    height: 55px;
+    border-radius: 15px;
+    background-color: #5b68f4;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    align-content: center;
+    color: aliceblue;
+}
+
+.formulario__limpiar{
+    width: 188px;
+    height: 55px;
+    border-radius: 15px;
+    border: #5b68f4 4px solid;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    align-content: center;
+    color: #5b68f4;
+}

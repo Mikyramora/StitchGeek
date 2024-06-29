@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/estilos.css">
+        <link rel="stylesheet" href="./css/flexbox.css">
+        <link rel="stylesheet" href="./css/formularios.css">
+        <title>Geek Stitch</title>
+        <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    </head>
+
+    <body>
+        <header>
+            <section class="principalCabeza">
+                <a class="base_icono"></a>
+                <div class="tituloEncabezado">
+                    <h1>Geek Stitch</h1>
+                </div>
+            </section>
+        </header>
+        <main class="manejandoCuerpos">
+            <section class="misProductos">
+                <h2 class="subtituloElemento">MIS PRODUCTOS:</h2>
+                <ul class="card_container" alt="productos en punto de cruz">
+                    <li class="card__item">
+                        <img class="card_img" src="./img/galeria/chocobo.png" alt="chocobo">
+                        <div class="descripcion-card">
+                            <h3>Front-end vs. Back-end</h3>
+                            <p>$236 mil</p>
+                            <img src="./img/icon _trash.png" alt="logo canal alura">
+                        </div>
+                    </li>
+                    <li class="card__item">
+                        <img class="card_img" src="./img/galeria/controlssue.png" alt="control Issue">
+                        <div class="descripcion-card">
+                            <h3>¡Domina CSS </h3>
+                            <p>618</p>
+                            <img src="./img/icon _trash.png" alt="logo canal alura">
+                        </div>
+                    </li>
+                    <li class="card__item">
+                        <img class="card_img" src="./img/galeria/dado.png" alt="dado D&D">
+                        <div class="descripcion-card">
+                            <h3>¿Cómo ser un Profesional</h3>
+                            <p>1,1 mil</p>
+                            <img src="./img/icon _trash.png" alt="logo canal alura">
+                        </div>
+                    </li>
+                    <li class="card__item">
+                        <img class="card_img" src="./img/galeria/chocobo.png" alt="chocobo">
+                        <div class="descripcion-card">
+                            <h3>Front-end vs. Back-end</h3>
+                            <p>236 mil</p>
+                            <img src="./img/icon _trash.png" alt="logo canal alura">
+                        </div>
+                    </li><li class="card__item">
+                        <img class="card_img" src="./img/galeria/chocobo.png" alt="chocobo">
+                        <div class="descripcion-card">
+                            <h3>Front-end vs. Back-end</h3>
+                            <p>236 mil</p>
+                            <img src="./img/icon _trash.png" alt="logo canal alura">
+                        </div>
+                    </li><li class="card__item">
+                        <img class="card_img" src="./img/galeria/chocobo.png" alt="chocobo">
+                        <div class="descripcion-card">
+                            <h3>Front-end vs. Back-end</h3>
+                            <p>236 mil</p>
+                            <img src="./img/icon _trash.png" alt="logo canal alura">
+                        </div>
+                    </li><li class="card__item">
+                        <img class="card_img" src="./img/galeria/chocobo.png" alt="chocobo">
+                        <div class="descripcion-card">
+                            <h3>Front-end vs. Back-end</h3>
+                            <p>236 mil</p>
+                            <img src="./img/icon _trash.png" alt="logo canal alura">
+                        </div>
+                    </li><li class="card__item">
+                        <img class="card_img" src="./img/galeria/chocobo.png" alt="chocobo">
+                        <div class="descripcion-card">
+                            <h3>Front-end vs. Back-end</h3>
+                            <p>236 mil</p>
+                            <img src="./img/icon _trash.png" alt="logo canal alura">
+                        </div>
+                    </li><li class="card__item">
+                        <img class="card_img" src="./img/galeria/chocobo.png" alt="chocobo">
+                        <div class="descripcion-card">
+                            <h3>Front-end vs. Back-end</h3>
+                            <p>236 mil</p>
+                            <img src="./img/icon _trash.png" alt="logo canal alura">
+                        </div>
+                    </li><li class="card__item">
+                        <img class="card_img" src="./img/galeria/chocobo.png" alt="chocobo">
+                        <div class="descripcion-card">
+                            <h3>Front-end vs. Back-end</h3>
+                            <p>236 mil</p>
+                            <img src="./img/icon _trash.png" alt="logo canal alura">
+                        </div>
+                </ul>
+            </section>
+            <form class="container__formulario" data-formulario>
+                <h2 class="subtituloElemento">AGREGAR PRODUCTO:</h2>
+                <section class="container_input">
+                    <div class="formulario__campo">
+                        <!-- <label class="campo__nombre" for="nombre">nombre...</label> -->
+                        <input name="nombre" class="campo__escrita" required
+                        placeholder="   nombre . . ." id='nombre' data-nombre/>
+                    </div>
+
+                    <div class="formulario__campo">
+                        <!-- <label class="campo__precio" for="precio">precio...</label> -->
+                        <input name="precio" class="campo__escrita" required
+                        placeholder="   precio . . ." id='precio' data-precio />
+                    </div>
+
+                    <div class="formulario__campo">
+                        <!-- <label class="campo__imagen" for="img">imagen...</label> -->
+                        <input name="img" class="campo__escrita" required 
+                        placeholder="   imagen . . ." id='img' data-img/>
+                    </div>
+                </section>
+
+                    <div class="formulario__botones">
+                        <input class="formulario__enviar" type="submit" value="Enviar" />
+                        <input class="formulario__limpiar" type="submit" value="Limpiar"/>
+                    </div>
+            </form>
+        </main>
+        <footer class="arribaAbajo">
+            <a class="pie_icono"></a>
+            <section class="pie">
+                <h1 class="titulo">Stitch Geek</h1>
+                <h2>Desarrollado por Amy Mora</h2>
+                <p class="p_alura">ALURA LATAM- 2024</p>
+            </section>
+        </footer>
+    </body>
+</html>
