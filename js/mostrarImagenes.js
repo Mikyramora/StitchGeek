@@ -3,11 +3,11 @@ import { conexionAPI } from "./conexionAPI.js";
 
 const lista = document.querySelector("[data-lista]")
 
-function crearCard(nombre, precio, img){
+function crearCard(nombre, precio, url){
     const imagen = document.createElement("li");
     imagen.className= "card__item";
     imagen.innerHTML=`
-                        <img class="card_img" src="${img}" alt="chocobo">
+                        <img class="card_img" src="${url}" alt="chocobo">
                         <div class="descripcion-card">
                             <h3>${nombre}</h3>
                             <p>${precio}</p>
@@ -20,7 +20,7 @@ function crearCard(nombre, precio, img){
 async function listarImagenes(){
     const listaAPI= await conexionAPI.listarImagenes()
 
-    listaAPI.forEach(imagen=>lista.appendChild(crearCard(imagen.nombre, imagen.precio, imagen.img)))
+    listaAPI.forEach(imagen=>lista.appendChild(crearCard(imagen.nombre, imagen.precio, imagen.url)))
 }
 
 listarImagenes()
