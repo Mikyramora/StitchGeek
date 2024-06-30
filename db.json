@@ -1,57 +1,70 @@
 {
-   "imagenes": [
-      {
-         "id": 1,
-         "nombre": "Chocobo",
-         "precio": "$129",
-         "img": "/img/galeria/chocobo.png"
-      },
-      {
-         "id": 2,
-         "nombre": "Control Issue",
-         "precio": "$349",
-         "img": "/img/galeria/controlssue.png"
-      },
-      {
-         "id": 3,
-         "nombre": "D&D",
-         "precio": "$349",
-         "img": "/img/galeria/dado.png"
-      },
-      {
-         "id": 4,
-         "nombre": "Well Shit",
-         "precio": "$199",
-         "img": "/img/galeria/dado1.png"
-      },{
-         "id": 5,
-         "nombre": "Para Dos",
-         "precio": "$149",
-         "img": "/img/galeria/game.png"
-      },
-      {
-         "id": 6,
-         "nombre": "Game On",
-         "precio": "$129",
-         "img": "/img/galeria/GameOn.png"
-      },
-      {
-         "id": 7,
-         "nombre": "Lives",
-         "precio": "$129",
-         "img": "/img/galeria/heart.png"
-      },
-      {
-         "id": 8,
-         "nombre": "Pause",
-         "precio": "$269",
-         "img": "/img/galeria/I-Would-Pause-For-You-Hooped-Version.png"
-      },
-      {
-         "id": 9,
-         "nombre": "Sorpresa",
-         "precio": "$129",
-         "img": "/img/galeria/pokemon.png"
-      }
-   ]
+  "imagenes": [
+    {
+      "id": 1,
+      "nombre": "Chocobo",
+      "precio": "$129",
+      "img": "/img/galeria/chocobo.png"
+    },
+    {
+      "id": 2,
+      "nombre": "Control Issue",
+      "precio": "$349",
+      "img": "/img/galeria/controlssue.png"
+    },
+    {
+      "id": 3,
+      "nombre": "D&D",
+      "precio": "$349",
+      "img": "/img/galeria/dado.png"
+    },
+    {
+      "id": 4,
+      "nombre": "Well Shit",
+      "precio": "$199",
+      "img": "/img/galeria/dado1.png"
+    },
+    {
+      "id": 5,
+      "nombre": "Para Dos",
+      "precio": "$149",
+      "img": "/img/galeria/game.png"
+    },
+    {
+      "id": 6,
+      "nombre": "Game On",
+      "precio": "$129",
+      "img": "/img/galeria/GameOn.png"
+    },
+    {
+      "id": 7,
+      "nombre": "Lives",
+      "precio": "$129",
+      "img": "/img/galeria/heart.png"
+    },
+    {
+      "id": 8,
+      "nombre": "Pause",
+      "precio": "$269",
+      "img": "/img/galeria/I-Would-Pause-For-You-Hooped-Version.png"
+    },
+    {
+      "id": 9,
+      "nombre": "Sorpresa",
+      "precio": "$129",
+      "img": "/img/galeria/pokemon.png"
+    },
+    {
+      "id": "6daa",
+      "nombre": "Amy Elizabeth",
+      "precio": "65",
+      "img": "\"/img/pix.png\""
+    },
+    {
+      "id": "548b",
+      "nombre": "Amy Elizabeth",
+      "precio": "$320",
+      "img": "/img/pix.png"
+    }
+  ]
 }

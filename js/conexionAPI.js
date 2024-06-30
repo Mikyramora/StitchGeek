@@ -6,11 +6,22 @@ async function listarImagenes(){
     return conexionConvertida
 }
 
-async function crearImagen(){
-    const conexion = await fetch ("http://localhost:3001/imagenes")
+async function enviarImagen(nombre, precio, img){
+    const conexion = await fetch ("http://localhost:3001/imagenes", {
+        method:"POST", 
+        headers:{"Content-type":"application/json"},
+        body:JSON.stringify({
+            nombre:nombre,
+            precio:precio,
+            img:img
+        })
+    })
+    const conexionConvertida = conexion.json();
+
+    return conexionConvertida;
 }
 
 export const conexionAPI={
-    listarImagenes
+    listarImagenes, enviarImagen
 }
 //listarImagenes();
