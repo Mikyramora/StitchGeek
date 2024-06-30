@@ -7,11 +7,15 @@
 }
 
 .subtituloElemento{
-    font-size: 3em;
+    background-color: rgb(243, 243, 248);
+    opacity: 70%;
+    font-size: 4em;
     font-weight: 900;
     display: flex;
     justify-content: center;
-    padding: 0 0 30px 0;
+    padding: 10px 0 10px 0;
+    border-radius: 30px;
+    margin-bottom: 30px;
 }
 
 .card_container{
@@ -21,7 +25,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    box-shadow: -12px 10px 5.8px 0 #5e5a5a;
+    box-shadow: -12px 10px 5.8px 0 #767373;
     overflow: auto;
     
 }
@@ -34,7 +38,7 @@
     padding: 10px 0;
     margin-bottom: 50px;
     gap: 10px;
-    box-shadow: -5px 6px 3.3px 0  #5e5a5a;
+    box-shadow: -5px 6px 3.3px 0  #767373;
 }
 
 .card_img{
@@ -46,6 +50,9 @@
 
 .card__item h3{
     padding: 10px 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: aliceblue;
 }
 
 .card__item p{

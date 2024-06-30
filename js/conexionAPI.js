@@ -4,7 +4,10 @@ async function listarImagenes(){
     const conexionConvertida= conexion.json();
 
     return conexionConvertida
-    //console.log(conexionConvertida);
+}
+
+async function crearImagen(){
+    const conexion = await fetch ("http://localhost:3001/imagenes")
 }
 
 export const conexionAPI={
