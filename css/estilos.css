@@ -9,6 +9,7 @@ body{
     font-size: 15px;
     box-sizing: border-box;
     overflow: auto;
+    margin: 0;
 }
 
 .principalCabeza{

@@ -8,9 +8,9 @@ async function crearImagen(evento){
 
     const nombre= document.querySelector("[data-nombre]").value;
     const precio= document.querySelector("[data-precio]").value;
-    const img= document.querySelector("[data-url]").value;
+    const img= document.querySelector("[data-img]").value;
 
-    await conexionAPI.enviarImagen(nombre, precio, url);
+    await conexionAPI.enviarImagen(nombre, precio, img);
 
 }
 

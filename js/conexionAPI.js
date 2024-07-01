@@ -6,14 +6,14 @@ async function listarImagenes(){
     return conexionConvertida
 }
 
-async function enviarImagen(nombre, precio, url){
+async function enviarImagen(nombre, precio, img){
     const conexion = await fetch ("http://localhost:3001/imagenes", {
         method:"POST", 
         headers:{"Content-type":"application/json"},
         body:JSON.stringify({
             nombre:nombre,
             precio:precio,
-            url:url
+            img:img
         })
     })
     const conexionConvertida = conexion.json();

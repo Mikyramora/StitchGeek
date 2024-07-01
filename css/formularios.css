@@ -1,6 +1,10 @@
 .container__formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    margin: 0 50px 555px 0;
+    margin: 37px 50px 555px 0;
     width:  472px;
     height: 550px;
     padding: 40px;
@@ -13,6 +17,7 @@
     margin-bottom: 0px;
     display: flex;
     flex-wrap: wrap;
+    gap: 30px;
 }
 
 .campo__escrita{
@@ -35,7 +40,7 @@
     line-height: 26px;
     align-content: center;
     color: aliceblue;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 .formulario__limpiar{
@@ -48,4 +53,14 @@
     line-height: 26px;
     align-content: center;
     color: #5b68f4;
+    margin-left: 5px;
 }
+
+.pop-container{
+    display: none;
+    width: 300px;
+    background: #5b68f4;
+    color: aliceblue;
+    font-size: 30px;
+}
+
