@@ -57,10 +57,37 @@
 }
 
 .pop-container{
-    display: none;
-    width: 300px;
-    background: #5b68f4;
+    display: flex;
+    width: 600px;
+    background-color: #5b68f4;
     color: aliceblue;
     font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    pointer-events: none;
+    opacity: 0;
+    height: 600px;
+}
+
+.show {
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.pop_up{
+    background-color: aliceblue;
+    color: black;
+    width: 550px;
+    max-width: 560px;
+    height: 150px;
+    padding: 80px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.pop_up h1{
+    font-size: 1.7em;
 }
 

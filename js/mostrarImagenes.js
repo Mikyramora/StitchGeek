@@ -11,7 +11,7 @@ function crearCard(nombre, precio, img){
                         <div class="descripcion-card">
                             <h3>${nombre}</h3>
                             <p>${precio}</p>
-                            <img src="./img/icon _trash.png" alt="logo bote de basura">
+                            <img class="eliminar" src="./img/icon _trash.png" alt="logo bote de basura">
                         </div>`;
 
     return imagen;

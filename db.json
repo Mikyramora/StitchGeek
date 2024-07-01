@@ -1,82 +1,58 @@
 {
   "imagenes": [
     {
-      "id": 1,
+      "id": "1",
       "nombre": "Chocobo",
       "precio": "$129",
       "img": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/170864ba-51a6-4f0f-9e64-1fb59fcd3811/d5qdxlh-5d987ad3-5df0-467e-8fad-59a220754ece.png/v1/fill/w_800,h_626,q_80,strp/chocobo_gift__cross_stitch__by_snowymelon_d5qdxlh-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjI2IiwicGF0aCI6IlwvZlwvMTcwODY0YmEtNTFhNi00ZjBmLTllNjQtMWZiNTlmY2QzODExXC9kNXFkeGxoLTVkOTg3YWQzLTVkZjAtNDY3ZS04ZmFkLTU5YTIyMDc1NGVjZS5wbmciLCJ3aWR0aCI6Ijw9ODAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.adk8P1prQGDwELRoyL-hXSAJlaieDUKhw6GRoXCb_ic"
     },
     {
-      "id": 2,
+      "id": "2",
       "nombre": "Control Issue",
       "precio": "$349",
       "img": "/img/galeria/controlssue.png"
     },
     {
-      "id": 3,
+      "id": "3",
       "nombre": "D&D",
       "precio": "$349",
       "img": "/img/galeria/dado.png"
     },
     {
-      "id": 4,
+      "id": "4",
       "nombre": "Well Shit",
       "precio": "$199",
       "img": "/img/galeria/dado1.png"
     },
     {
-      "id": 5,
+      "id": "5",
       "nombre": "Para Dos",
       "precio": "$149",
       "img": "/img/galeria/game.png"
     },
     {
-      "id": 6,
+      "id": "6",
       "nombre": "Game On",
       "precio": "$129",
       "img": "/img/galeria/GameOn.png"
     },
     {
-      "id": 7,
+      "id": "7",
       "nombre": "Lives",
       "precio": "$129",
       "img": "/img/galeria/heart.png"
     },
     {
-      "id": 8,
+      "id": "8",
       "nombre": "Pause",
       "precio": "$269",
       "img": "/img/galeria/I-Would-Pause-For-You-Hooped-Version.png"
     },
     {
-      "id": 9,
+      "id": "9",
       "nombre": "Sorpresa",
       "precio": "$129",
       "img": "/img/galeria/pokemon.png"
-    },
-    {
-      "id": "6daa",
-      "nombre": "Amy Elizabeth",
-      "precio": "65",
-      "img": "\"/img/pix.png\""
-    },
-    {
-      "id": "548b",
-      "nombre": "Amy Elizabeth",
-      "precio": "$320",
-      "img": "/img/pix.png"
-    },
-    {
-      "id": "0f03",
-      "nombre": "Stard",
-      "precio": "$320",
-      "img": "https://i.pinimg.com/736x/cb/c4/63/cbc463e689de5b21310346cb359dc1e6.png"
-    },
-    {
-      "id": "dc09",
-      "nombre": "Stard",
-      "precio": "$320",
-      "img": "https://i.pinimg.com/736x/cb/c4/63/cbc463e689de5b21310346cb359dc1e6.jpg"
     }
   ]
 }
