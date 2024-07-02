@@ -1,9 +1,13 @@
 .misProductos{
-    display: none;
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    margin: 0;
-    width: 758px;
-    height: 1115px;
+    text-align: center;
+    margin: 100px 0 0 0;
+    width: 800px;
+    height: 1030px;
     padding: 30px;
 }
 
@@ -14,15 +18,17 @@
     font-weight: 900;
     display: flex;
     justify-content: center;
-    padding: 10px 0 10px 0;
+    width: 30vw;
+    padding: 15px;
     border-radius: 30px;
     margin-bottom: 30px;
 }
 
 .card_container{
+    background-color: aqua;
     margin-left: 40px;
-    width: 710px;
-    height: 971px;
+    width: 750px;
+    height: 900px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -37,7 +43,7 @@
     height: 258px;
     border-radius: 10px;
     padding: 10px 0;
-    margin-bottom: 50px;
+    margin: 10px 0;
     gap: 10px;
     box-shadow: -5px 6px 3.3px 0  #767373;
 }
@@ -45,21 +51,20 @@
 .card_img{
     height: 176px;
     width: 176px;
-    margin-left: 10px;
+    margin: 5px;
     border-radius: 5px;
 }
 
 .card__item h3{
-    padding: 10px 10px;
-    font-size: 18px;
-    font-weight: 700;
+    padding: 5px 0;
+    font-size: 20px;
+    font-weight: 600;
     color: aliceblue;
 }
 
 .card__item p{
-    font-weight: 700;
-    font-size: 18px;
-    padding: 0 10px;
+    font-weight: 800;
+    font-size: 20px;
 }
 
 .descripcion-card img{
