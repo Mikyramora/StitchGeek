@@ -20,7 +20,7 @@
 }
 
 .campo__escrita{
-    width: 510px;
+    width: 580px;
     height: 58px;
     border-radius: 30px;
     border: #5b68f4 4px solid;
@@ -89,3 +89,79 @@
     font-size: 1.7em;
 }
 
+@media (max-width:1420px){
+    .container__formulario{
+        margin: 0;
+        width:  300px;
+        height: 450px;
+    }
+    
+    /* .container_input{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    } */
+    
+    .campo__escrita{
+        width: 350px;
+    }
+    
+    .formulario__enviar{
+        width: 138px;
+        margin-right: 5px;
+    }
+    
+    .formulario__limpiar{
+        width: 138px;
+        margin-left: 5px;
+    }    
+}
+
+@media (max-width: 1040px){
+    .container__formulario{
+        height: 400px;
+        width: 500px;
+    }
+
+    .campo__escrita{
+        width: 450px;
+    }
+
+}
+
+@media (max-width: 740px){
+    .container__formulario{
+        margin: 10px 0 0 0;
+        width:  350px;
+        height: 300px;
+        padding: 0;
+        gap: 15px;
+    }
+    
+    .container_input{
+        gap: 10px;
+    }
+    
+    .campo__escrita{
+        width: 330px;
+        height: 38px;
+    }
+    
+    .formulario__enviar{
+        width: 100px;
+        height: 45px;
+        font-size: 17px;
+        margin-right: 5px;
+    }
+    
+    .formulario__limpiar{
+        width: 100px;
+        height: 45px;
+        font-size: 17px;
+        margin-left: 5px;
+    }
+    
+
+}

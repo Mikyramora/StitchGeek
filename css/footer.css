@@ -32,3 +32,23 @@ footer{
 .p_alura{
    padding-top: 10px;
 }
+
+@media (max-width: 768px){
+    footer{
+        height: 80px;
+    }
+
+    .pie{
+        padding: 0;
+        font-size: 1em;
+    }
+    
+    .titulo{
+        font-size: 1.2em;
+        padding: 10px 0 5px 0;
+    }
+    
+    .p_alura{
+       padding-top: 5px;
+    }
+}

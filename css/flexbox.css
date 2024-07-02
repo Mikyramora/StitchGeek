@@ -1,13 +1,12 @@
 .misProductos{
-    background-color: brown;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 100px 0 0 0;
+    margin: 60px 0 0 0;
     width: 800px;
-    height: 1030px;
+    height: 1050px;
     padding: 30px;
 }
 
@@ -25,10 +24,9 @@
 }
 
 .card_container{
-    background-color: aqua;
     margin-left: 40px;
     width: 750px;
-    height: 900px;
+    height: 930px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -45,7 +43,7 @@
     padding: 10px 0;
     margin: 10px 0;
     gap: 10px;
-    box-shadow: -5px 6px 3.3px 0  #767373;
+    border: #2e2d2d 5px solid;
 }
 
 .card_img{
@@ -69,4 +67,96 @@
 
 .descripcion-card img{
     margin-left: 160px;
+}
+
+@media (max-width:1420px){
+    .misProductos{
+        width: 600px;
+        height: 650px;
+        margin-top: 30px;
+        padding: 30px;
+    }
+    
+    .subtituloElemento{
+        font-size: 2em;
+    }
+    
+    .card_container{
+        width: 600px;
+        height: 580px;
+    }
+    
+    .card__item{
+        background-color: #737CE6;
+        width: 166px;
+        height: 228px;
+        margin: 10px;
+    }
+    
+    .card_img{
+        height: 146px;
+        width: 146px;
+    }
+    
+    .descripcion-card img{
+        margin-left: 130px;
+    }
+    
+}
+
+@media (max-width: 1040px){
+    .misProductos{
+        height: 360px;
+        padding: 0 30px 30px 30px;
+        margin-bottom: 20px;
+    }
+    
+    .subtituloElemento{
+        font-size: 2.6em;
+        font-weight: 900;
+        width: 60vw;
+        margin: 0 15px;
+    }
+
+    .card_container{
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 740px){
+    .misProductos{
+        width: 350px;
+        height: 335px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .subtituloElemento{
+        font-size: 1.2em;
+    }
+    
+    .card_container{
+        width: 350px;
+        height: 240px;
+        padding: 0;       
+        box-shadow: none;
+        gap: 20px 3px;
+        margin: 15px 0;
+    }
+    
+    .card__item{
+        width: 136px;
+        height: 198px;
+        margin: 0;
+        gap: 2px;
+    }
+
+    .card_img{
+        height: 116px;
+        width: 116px;
+    }
+    
+    .descripcion-card img{
+        margin-left: 110px;
+    }
 }

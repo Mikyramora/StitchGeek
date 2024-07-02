@@ -22,3 +22,10 @@ main {
     align-items: center;
     justify-content:space-evenly;
 }
+
+
+@media (max-width: 768px){
+    main{
+        flex-direction: column-reverse;
+    }
+}
