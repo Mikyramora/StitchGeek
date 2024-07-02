@@ -11,7 +11,6 @@ async function crearImagen(evento){
     const img= document.querySelector("[data-img]").value;
 
     await conexionAPI.enviarImagen(nombre, precio, img);
-
 }
 
 formulario.addEventListener("submit", evento=> crearImagen(evento));

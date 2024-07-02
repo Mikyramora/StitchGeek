@@ -4,7 +4,6 @@ const close = document.getElementById("pop_cerrar");
 
 agregar.addEventListener("click", () => {
     pop_container.classList.add("show");
-    alert("prueba");
 });
 
 close.addEventListener("click", () => {
