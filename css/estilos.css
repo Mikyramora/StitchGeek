@@ -1,3 +1,7 @@
+@import url("header.css");
+@import url("flexbox.css");
+@import url("formularios.css");
+@import url("footer.css");
 
 body{
     font-family: "Chakra Petch", sans-serif;
@@ -8,74 +12,12 @@ body{
     margin: 0;
 }
 
-.principalCabeza{
-    background-color: #8690f5;
-    top: 0;
-    height: 100px;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-}
-
-.base_icono {
-    background-image: url(/img/bordado.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 15px 40px;
-    width: 10px;
-}
-
-.tituloEncabezado{
-    font-size: 5em;
-    font-weight: 900;
-    display: flex;
-    justify-content: center;
-    padding-top: 15px;
-    color: aliceblue;
-}
 
 main {
     width: 100vw;
-    height: 1235px;
+    height: 100vh;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
-}
-
-
-footer{
-    background-color: #8690f5;
-    bottom: 0;
-    height: 150px;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
-.pie_icono{
-    background-image: url(/img/aguja.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
-    padding: 15px 40px;
-}
-
-.pie{
-    padding: 20px 5px;
-    font-size: 1.3em;
-}
-
-.titulo{
-    font-size: 1.3em;
-    font-weight: 900;
-    display: flex;
-    justify-content: center;
-    padding: 15px 0 5px 0;
-}
-
-.p_alura{
-   padding-top: 10px;
+    justify-content:space-evenly;
 }

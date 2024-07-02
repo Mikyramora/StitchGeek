@@ -53,6 +53,12 @@
       "nombre": "Sorpresa",
       "precio": "$129",
       "img": "/img/galeria/pokemon.png"
+    },
+    {
+      "id": "8f32",
+      "nombre": "Amy Elizabeth",
+      "precio": "$320",
+      "img": "https://i.pinimg.com/736x/cb/c4/63/cbc463e689de5b21310346cb359dc1e6.jpg"
     }
   ]
 }

@@ -1,0 +1,26 @@
+.principalCabeza{
+    background-color: #8690f5;
+    top: 0;
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.base_icono {
+    background-image: url(/img/bordado.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 15px 40px;
+    width: 10px;
+}
+
+.tituloEncabezado{
+    font-size: 5em;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    color: aliceblue;
+}

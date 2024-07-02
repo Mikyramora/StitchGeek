@@ -1,0 +1,34 @@
+footer{
+    background-color: #8690f5;
+    bottom: 0;
+    height: 150px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.pie_icono{
+    background-image: url(/img/aguja.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    padding: 15px 40px;
+}
+
+.pie{
+    padding: 20px 5px;
+    font-size: 1.3em;
+}
+
+.titulo{
+    font-size: 1.3em;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 5px 0;
+}
+
+.p_alura{
+   padding-top: 10px;
+}
