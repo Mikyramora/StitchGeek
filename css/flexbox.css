@@ -1,4 +1,5 @@
 .misProductos{
+    display: none;
     justify-content: center;
     margin: 0;
     width: 758px;

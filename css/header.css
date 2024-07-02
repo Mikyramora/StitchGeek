@@ -24,3 +24,11 @@
     padding-top: 15px;
     color: aliceblue;
 }
+
+@media (max-width: 767px){
+
+    .tituloEncabezado{
+        font-size: 3em;
+        padding-top: 30px;
+    }
+}
