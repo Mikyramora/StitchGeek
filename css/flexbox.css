@@ -69,6 +69,20 @@
     margin-left: 160px;
 }
 
+.agregar_vacio{
+    background-color: rgb(243, 243, 248);
+    opacity: 70%;
+    font-size: 4em;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    padding: 15px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
 @media (max-width:1420px){
     .misProductos{
         width: 600px;
@@ -100,6 +114,10 @@
     
     .descripcion-card img{
         margin-left: 130px;
+    }
+
+    .agregar_vacio{
+        background-color: brown;
     }
     
 }
