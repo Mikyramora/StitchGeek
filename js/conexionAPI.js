@@ -1,5 +1,5 @@
 async function listarImagenes(){
-    const conexion = await fetch("http://localhost:3001/imagenes");
+    const conexion = await fetch("https://my-json-server.typicode.com/Mikyramora/stitch-geek-api/db");
     
     const conexionConvertida= conexion.json();
 
@@ -7,7 +7,7 @@ async function listarImagenes(){
 }
 
 async function enviarImagen(nombre, precio, img){
-    const conexion = await fetch ("http://localhost:3001/imagenes", {
+    const conexion = await fetch ("https://my-json-server.typicode.com/Mikyramora/stitch-geek-api/db", {
         method:"POST", 
         headers:{"Content-type":"application/json"},
         body:JSON.stringify({
@@ -22,7 +22,7 @@ async function enviarImagen(nombre, precio, img){
 }
 
 async function eliminarCard(id){
-    const conexion = await fetch (`http://localhost:3001/imagenes/${id}`, {
+    const conexion = await fetch (`https://my-json-server.typicode.com/Mikyramora/stitch-geek-api/db/${id}`, {
         method:"DELETE" 
     });
     const conexionConvertida = conexion.json();
