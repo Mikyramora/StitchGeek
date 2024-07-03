@@ -78,6 +78,7 @@
     justify-content: center;
     align-items: center;
     width: 25vw;
+    height: 35vh;
     padding: 15px;
     border-radius: 30px;
     margin-bottom: 30px;
@@ -116,8 +117,11 @@
         margin-left: 130px;
     }
 
-    .agregar_vacio{
-        background-color: brown;
+    .agregar_vacio{    
+        width: 35vw;
+        height: 35vh;
+        font-size: 2.5em;
+        margin-top: 20px;
     }
     
 }
@@ -137,6 +141,13 @@
     }
 
     .card_container{
+        margin-top: 15px;
+    }
+
+    .agregar_vacio{    
+        width: 40vw;
+        height: 20vh;
+        font-size: 2.5em;
         margin-top: 15px;
     }
 }
@@ -176,5 +187,12 @@
     
     .descripcion-card img{
         margin-left: 110px;
+    }
+
+    .agregar_vacio{    
+        width: 40vw;
+        height: 25vh;
+        font-size: 1.5em;
+        margin-top: 15px;
     }
 }
