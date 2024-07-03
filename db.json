@@ -13,6 +13,18 @@
       "img": "https://i.etsystatic.com/9273087/r/il/cb9b9b/2854308196/il_570xN.2854308196_36qy.jpg"
     },
     {
+      "id": "4",
+      "nombre": "Well Shit",
+      "precio": "$199",
+      "img": "https://storage.ko-fi.com/cdn/useruploads/display/5eb6f8ff-e198-40af-9ff1-c3499d64acb6_img_5019.jpeg"
+    },
+    {
+      "id": "5",
+      "nombre": "Para Dos",
+      "precio": "$149",
+      "img": "https://i.pinimg.com/736x/d4/e1/52/d4e1529828b244fb28140ec06c80b970.jpg"
+    },
+    {
       "id": "6",
       "nombre": "Game On",
       "precio": "$129",
@@ -35,12 +47,6 @@
       "nombre": "Sorpresa",
       "precio": "$129",
       "img": "https://i.pinimg.com/474x/84/f7/bf/84f7bfb531f4af545bbd6866c2fc0002.jpg"
-    },
-    {
-      "id": "61b2",
-      "nombre": "Amy Elizabeth",
-      "precio": "$320",
-      "img": "\"/img/pix.png\""
     }
   ]
 }
