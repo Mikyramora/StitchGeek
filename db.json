@@ -1,3 +1,52 @@
 {
-  "imagenes": []
+  "imagenes": [
+    {
+      "id": "1",
+      "nombre": "Chocobo",
+      "precio": "$129",
+      "img": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/170864ba-51a6-4f0f-9e64-1fb59fcd3811/d5qdxlh-5d987ad3-5df0-467e-8fad-59a220754ece.png/v1/fill/w_800,h_626,q_80,strp/chocobo_gift__cross_stitch__by_snowymelon_d5qdxlh-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjI2IiwicGF0aCI6IlwvZlwvMTcwODY0YmEtNTFhNi00ZjBmLTllNjQtMWZiNTlmY2QzODExXC9kNXFkeGxoLTVkOTg3YWQzLTVkZjAtNDY3ZS04ZmFkLTU5YTIyMDc1NGVjZS5wbmciLCJ3aWR0aCI6Ijw9ODAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.adk8P1prQGDwELRoyL-hXSAJlaieDUKhw6GRoXCb_ic"
+    },
+    {
+      "id": "3",
+      "nombre": "D&D",
+      "precio": "$349",
+      "img": "https://i.etsystatic.com/9273087/r/il/cb9b9b/2854308196/il_570xN.2854308196_36qy.jpg"
+    },
+    {
+      "id": "4",
+      "nombre": "Well Shit",
+      "precio": "$199",
+      "img": "https://storage.ko-fi.com/cdn/useruploads/display/5eb6f8ff-e198-40af-9ff1-c3499d64acb6_img_5019.jpeg"
+    },
+    {
+      "id": "5",
+      "nombre": "Para Dos",
+      "precio": "$149",
+      "img": "https://i.pinimg.com/736x/d4/e1/52/d4e1529828b244fb28140ec06c80b970.jpg"
+    },
+    {
+      "id": "6",
+      "nombre": "Game On",
+      "precio": "$129",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRon4oJ_KtnMN6dE3sDpU7np6pMwac6X0beNQ&s"
+    },
+    {
+      "id": "7",
+      "nombre": "Lives",
+      "precio": "$129",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzyWJXsss7tMOPDLV28jbCmpUinvhQG7t7JQ&s"
+    },
+    {
+      "id": "8",
+      "nombre": "Pause",
+      "precio": "$269",
+      "img": "https://i.pinimg.com/736x/d4/e1/52/d4e1529828b244fb28140ec06c80b970.jpg"
+    },
+    {
+      "id": "9",
+      "nombre": "Sorpresa",
+      "precio": "$129",
+      "img": "https://i.pinimg.com/474x/84/f7/bf/84f7bfb531f4af545bbd6866c2fc0002.jpg"
+    }
+  ]
 }
