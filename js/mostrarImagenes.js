@@ -35,7 +35,7 @@ async function listarImagenes(){
     const listaAPI= await conexionAPI.listarImagenes();
 
     if (listaAPI.length === 0){
-        const vacio = document.createElement("h1");
+        const vacio = document.createElement("p");
         vacio.textContent = "No se han agregado productos";
         vacio.className= "agregar_vacio";
         lista.appendChild(vacio);

@@ -1,16 +1,3 @@
 {
-  "imagenes": [
-    {
-      "id": "7a30",
-      "nombre": "Gaming",
-      "precio": "$320",
-      "img": "https://dailycrossstitch.com/wp-content/uploads/2019/01/Id-rather-Be-Gaming-Hooped-Version.jpg"
-    },
-    {
-      "id": "9dc3",
-      "nombre": "Stard",
-      "precio": "$320",
-      "img": "https://i.pinimg.com/736x/cb/c4/63/cbc463e689de5b21310346cb359dc1e6.jpg"
-    }
-  ]
+  "imagenes": []
 }
