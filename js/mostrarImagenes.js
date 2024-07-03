@@ -32,9 +32,17 @@ function crearCard(id,nombre, precio, img){
 
 
 async function listarImagenes(){
-    const listaAPI= await conexionAPI.listarImagenes()
+    const listaAPI= await conexionAPI.listarImagenes();
+
+    if (listaAPI.length === 0){
+        const vacio = document.createElement("h1");
+        vacio.textContent = "No se han agregado productos";
+        vacio.className= "agregar_vacio";
+        lista.appendChild(vacio);
+    } else {
 
     listaAPI.forEach(imagen=>lista.appendChild(crearCard(imagen.id, imagen.nombre, imagen.precio, imagen.img)))
+    }
 }
 
 listarImagenes()
